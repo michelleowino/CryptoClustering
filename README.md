@@ -56,3 +56,15 @@ Used the following steps to cluster the cryptocurrencies for the best value for 
   - Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
   - Color the graph points with the labels found using K-means.
   - Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
+ 
+ # Results
+ 
+ <img width="656" alt="Screenshot 2023-05-11 at 7 12 31 PM" src="https://github.com/michelleowino/CryptoClustering/assets/119654958/b085f5b3-283b-4090-b855-5698fe4063aa"> <img width="640" alt="Screenshot 2023-05-11 at 7 12 45 PM" src="https://github.com/michelleowino/CryptoClustering/assets/119654958/22443107-7872-4efb-ac93-232cc3d6f7be">
+ 
+ <img width="658" alt="Screenshot 2023-05-11 at 7 12 56 PM" src="https://github.com/michelleowino/CryptoClustering/assets/119654958/0f4d185c-04fb-4499-a81f-15222b2b15ac">
+
+<img width="652" alt="Screenshot 2023-05-11 at 7 13 08 PM" src="https://github.com/michelleowino/CryptoClustering/assets/119654958/bb5732cc-adea-4fe6-a28e-c464eef47092">
+
+ After visually analyzing the results of the cluster analysis, it appears that there are no significant differences between the clusters generated using the original data and the PCA-transformed data. However, the positions of the clusters do vary between the two sets. Specifically, the clusters generated from the PCA-transformed data are more compact than those generated from the original data, which are more spread out. It's worth noting that both sets of clusters were generated using K-means with four clusters.
+ 
+ 
