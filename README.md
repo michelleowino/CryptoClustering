@@ -8,6 +8,8 @@ In this project I used Python and unsupervised learning to predict if cryptocurr
 - Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
 - Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
 
+<img width="899" alt="Screenshot 2023-05-11 at 6 36 39 PM" src="https://github.com/michelleowino/CryptoClustering/assets/119654958/2fb5dc70-e957-431a-95ce-7b1251bd962b">
+
 ## Find the Best Value for k Using the Original Scaled DataFrame
 Used the elbow method to find the best value for k using the following steps:
 
@@ -33,6 +35,8 @@ Used the following steps to cluster the cryptocurrencies for the best value for 
   - Using the original scaled DataFrame, performed a PCA and reduce the features to three principal components.
   - Retrieve the explained variance to determine how much information can be attributed to each principal component.
   - Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame
+
+<img width="512" alt="Screenshot 2023-05-11 at 6 36 51 PM" src="https://github.com/michelleowino/CryptoClustering/assets/119654958/7b107b89-2098-4474-b554-01e3d5f527e8">
 
 # Find the Best Value for k Using the PCA Data
 Used the elbow method on the PCA data to find the best value for k using the following steps:
